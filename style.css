@@ -1,0 +1,226 @@
+	body {
+		margin:	0;
+		padding: 0;
+		font-family: 'Arial';
+	}
+
+/* ========================================================================= */
+/*		Section for layout and styling the navbar on each page */
+/* ========================================================================= */
+
+	.navbar {
+		background-color: #000000; /* Navbar color black */
+		list-style: none;  /* removes the bullet points from the navbar */
+		text-align: center;
+		padding-top: 20px; /* navbar padding 20px for the top */
+		padding-bottom:20px; /* navbar padding 20px for the botom */
+		
+	}
+		
+	.navbar > li {   
+		display: inline-block;   /* for all li "list items" in the navar, display them side by side. */
+		padding-left: 70px;   /* space between each link */
+	}
+
+	.navbar > li > a {
+		text-decoration: none; /* removes underline on the links to make it look nicer */
+		color: #ffffff; /* changes the color to white */
+	}
+
+	.navbar > li > a:hover {
+		color: #ffd700;      /* each link changes color when hovered over "changes state as asked in the Technical Requirements for Assignment 1" */
+	}
+
+/* ========================================================================= */
+/* ========================================================================= */
+
+
+/* ========================================================================= */
+/*Section for styling and layout of the footer at the bottom of each page */
+/* ========================================================================= */
+	.footer {
+		background-color: #000000;   /* Text content on html for each page*/
+		color: white;
+		text-align: center;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		bottom:0; /* Send footer to the bottom of the page */
+		position:absolute; /* Keep at the bottom */
+		width:100%;
+		z-index: 1; /* set to 1 to keep it on top of anything undefinded or lower */
+	}
+/* ========================================================================= */
+/* ========================================================================= */
+
+/* ========================================================================= */
+/*		Section for layout of the logo on the navbar  */
+/* ========================================================================= */
+	.logo {
+	color: #ffffff;
+	float: left;
+	}
+	
+	.img-circle {     /* for the CSS rounded image requirement - in top corner of each page */
+        border-radius: 50%;
+    }
+
+/* ========================================================================= */
+/* ========================================================================= */
+	
+
+/* ========================================================================= */
+/*		Styling and layout of text displayed on mainpage */
+/* ========================================================================= */
+	.welcometext {   
+		color: #ffffff;
+		text-align: center;
+	}
+
+/* ========================================================================= */
+/*		Styling and layout of text displayed on about us */
+/* ========================================================================= */
+
+	.aboutustext {
+		color: #ffffff;
+		text-align: center;
+	}
+
+
+
+
+/* ========================================================================= */
+/* ========================================================================= */
+
+/* ========================================================================= */
+/*		Section for laying out the columns 							 */
+/* ========================================================================= */
+	#column1{   /* Used on index.html */
+		-moz-column-count:1;
+		-moz-column-gap:1em;
+		-moz-column-rule:1px solid black;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 1em;
+		-webkit-column-rule: 1px solid black;
+		/* border:5px solid #c1c1c1;     --- uncomment to see border on the main page */
+	}
+	
+	
+	#column2{  /* Used on aboutus.html  */
+		-moz-column-count:2;
+		-moz-column-gap:1em;
+		-moz-column-rule:1px solid black;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 1em;
+		-webkit-column-rule: 1px solid black;
+		/* border:5px solid #c1c1c1;     --- uncomment to see border on the About us page */
+	}	
+	
+	
+	#column3{	/* Used on testimonials.html */
+		-moz-column-count:3;
+		-moz-column-gap:1em;
+		-moz-column-rule:1px solid black;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 1em;
+		-webkit-column-rule: 1px solid black;
+		font-family:"Comic sans MS";
+		font-size:150%;
+		/* border:5px solid #c1c1c1;     --- uncomment to see border on the Testimonials page */
+	}
+
+
+
+
+
+.right {float: right; }           /* used to float images to right
+/* i.e <img src="somewhere" class="right" /> */
+
+
+.center {margin: auto;   /* Used on the contact us form */
+    width: 30%;
+   /* border: 3px solid #73AD21; */  Left incase you need to see the border
+    padding: 10px; }
+
+
+
+#aboutus {
+	width=100%;
+	font-family:"Comic sans MS";
+	font-size:150%;
+	color:white;
+}
+#aboutus #aboutusimage1 {
+	z-index: -1;
+}
+
+
+
+
+
+
+
+#map {
+        width: 100%;
+        height: 200px;
+     }
+    </style>
+
+
+
+
+
+
+
+
+
+
+/* Replaced with different code
+	.column3 {
+		-webkit-column-count: 4;
+		-webkit-column-gap: 10px;
+		-moz-column-count: 4;         /* multiple lines for different browser support */
+/*		-moz-column-gap: 10px;
+		column-count:4;
+		margin-left: 20px;
+		color: #ffd700;
+		border:5px solid #c1c1c1;
+
+		}
+*/
+
+/*      Changed to more simple version listed in the html for each page <body background=...>
+.backgroundimage {   /* settings for the backgroundimage div. 
+	width: 100%;
+	height: 50%;
+	
+}
+.backgroundimage > .bubbles {  /* styling the bubbles image itself 
+	width: 100%;
+	height: 100%;
+	
+} */
+
+/*   Broken css
+  
+@charset "utf-8";
+
+
+<!-- sets the colour of the navigation bar, top of each page-->
+
+
+body {
+	margin: 10;
+	padding: 10;
+	font-family: 'Arial';
+	font-size: 26px;
+}
+
+
+#nav
+#nav ul{
+	list style: none;
+	
+}
+
+
+*/

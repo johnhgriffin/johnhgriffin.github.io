@@ -1,0 +1,126 @@
+ <DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Experimental Photography</title>
+	<!--Linking the stylesheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+	<ul class="navbar">
+		<div class="logo">
+			<a href="index.html"><img class="img-circle" src="images/animal-eyes-animals-black-logo.jpg"></a>
+		</div>
+		<!--Below - Unordered list items for the menu-->
+		<li><a href="index.html">Home</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="ourwork.html">Our Work</a></li>
+		<li><a href="testimonials.html">Testimonials</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+	</ul>
+	
+<body background="images/Elegant_Background-7.jpg">
+
+	<div class="footer">
+	<p> Passion for Photography </p>
+	</div>
+	
+	
+<div class="center">	  <!-- look in style.css for code -Purpose is to center the contact form in the center of the page with margin: auto-->
+	
+	<form name="htmlform" method="post" action="">    <!-- http://www.w3schools.com/tags/att_input_type.asp for a list of different options -->
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="type_event">Type of Event</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="type_event" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="your_name">Your Name</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="your_name" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="100" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">           <!-- only seems to work in Chrome -->
+  <label for="date">Date</label>
+ </td>
+ <td valign="top">
+  <input  type="date" name="date" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Leave us a Message</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="50" rows="12"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">  
+ </td>
+</tr>
+</table>
+</form>
+	
+	
+<!-- Google Map location -->
+	
+	
+	 <h2>FInd us on Google Maps!</h2>
+    <div id="map" style="center"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 53.34928600000001, lng: -6.26114819999998},
+            zoom: 8
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgHZVRI1rQ_cTPNjm5w04WUYsVS1VP4U4&callback=initMap">  <!-- Here to get API key https://developers.google.com/maps/documentation/javascript/tutorials/adding-a-google-map#key -->
+    </script>
+	
+	
+	
+</div>
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
