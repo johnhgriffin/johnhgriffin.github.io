@@ -1,1 +1,8 @@
 gQgqJG8ld7M
+
+
+Info on setting footer position/color etc
+http://presscustomizr.com/snippet/change-footer-background-border-fontcolorsize-alignment/
+
+Footers - keeping them fixed at bottom@
+http://jsfiddle.net/Sudjy/
