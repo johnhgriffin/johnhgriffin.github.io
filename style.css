@@ -3,6 +3,7 @@ body {
    margin:0;
    padding:0;
    height:100%;
+	font-family: Georgia;
 }
 #container {
    min-height:100%;
@@ -26,7 +27,7 @@ body {
 	font-size:medium;
     text-align:center;
    
-   }
+}
 /* ========================================================================= */
 /* ========================================================================= */
 
@@ -159,7 +160,10 @@ body {
 	
 }
 
-
+.gradient {
+	  background-color: white;
+	  background-image: linear-gradient(blue, white);
+}
 
 
 
